@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="styles.css">
@@ -53,40 +54,43 @@
   <h2 class="center">ABOUT ME</h2>
   <p class="center"><em>Crafting clean, responsive & modern web interfaces</em></p>
 
+<p class="second-paragraph">
+  We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
   <div class="row">
-    <div class="col-6 center">
-      <img src="images/coding-img.webp" alt="Frontend Developer">
-    </div>
     <div class="col-6">
       <p>
-        Hi, I’m a <strong>Frontend Developer</strong> focused on building fast,
-        responsive and user-friendly websites using modern web technologies.
-        I specialize in turning UI/UX designs into pixel-perfect, accessible
-        and high-performance web experiences.
+        Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <p>
-        I enjoy working with clean code, modern layouts, smooth animations
-        and performance-optimized interfaces for real-world projects.
+
+      <p class="second-paragraph">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       </p>
+    </div>
+    <div class="col-6 center">
+      <h3>Ali Khan</h3>
+      <img src="images/coding-img.webp" alt="Frontend Developer">
     </div>
   </div>
 
-  <p class="center"><strong>Core Skills & Expertise</strong></p>
+<h3 class="center"><strong>Core Skills & Expertise</strong></h3>
 
-  <p>HTML5 / CSS3 / Responsive Design</p>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width:95%">95%</div>
-  </div>
+<p><i class="fa-solid fa-code skill-icon"></i> HTML5 / CSS3 / Responsive Design</p>
+<div class="skill-bar">
+  <div class="skill-fill" style="width:95%">95%</div>
+</div>
 
-  <p>JavaScript (Vanilla JS)</p>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width:85%">85%</div>
-  </div>
+<p><i class="fa-brands fa-js skill-icon"></i> JavaScript</p>
+<div class="skill-bar">
+  <div class="skill-fill" style="width:85%">85%</div>
+</div>
 
-  <p>UI Implementation & Performance Optimization</p>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width:80%">80%</div>
-  </div>
+<p><i class="fa-solid fa-gauge-high skill-icon"></i> UI Implementation & Performance Optimization</p>
+<div class="skill-bar">
+  <div class="skill-fill" style="width:80%">80%</div>
+</div>
+
 </section>
 
 <!-- STATS -->
@@ -111,28 +115,40 @@
 
 <!-- PORTFOLIO BG -->
 <div class="parallax section-bg bg-portfolio">
-  <div class="overlay-text-port">FEATURED PROJECTS</div>
+  <div class="overlay-text">FEATURED PROJECTS</div>
 </div>
 
 <!-- PORTFOLIO -->
-<div class="container" id="portfolio">
+<div class="portfolio-section" id="portfolio">
   <h3 class="center">MY WORK</h3>
   <p class="center">
     <em>A selection of frontend projects built with clean code & modern UI</em>
   </p>
 
-  <div class="row">
+  <div class="grid-container">
     <div class="col-3">
-      <img src="/w3images/p1.jpg" onclick="openModal(this)" alt="Responsive Landing Page">
+      <img src="images/content-writer-img.webp" onclick="openModal(this)" alt="Responsive Landing Page">
     </div>
     <div class="col-3">
-      <img src="/w3images/p2.jpg" onclick="openModal(this)" alt="Portfolio Website UI">
+      <img src="images/female-member.webp" onclick="openModal(this)" alt="Portfolio Website UI">
     </div>
     <div class="col-3">
-      <img src="/w3images/p3.jpg" onclick="openModal(this)" alt="Business Website Frontend">
+      <img src="images/graphic-designer.webp" onclick="openModal(this)" alt="Business Website Frontend">
     </div>
     <div class="col-3">
-      <img src="/w3images/p4.jpg" onclick="openModal(this)" alt="Modern Web Interface">
+      <img src="images/team-lead-2.webp" onclick="openModal(this)" alt="Modern Web Interface">
+    </div>
+        <div class="col-3">
+      <img src="images/og-img.jpeg" onclick="openModal(this)" alt="Responsive Landing Page">
+    </div>
+    <div class="col-3">
+      <img src="images/coding-img.webp" onclick="openModal(this)" alt="Portfolio Website UI">
+    </div>
+    <div class="col-3">
+      <img src="images/portfolio.jpg" onclick="openModal(this)" alt="Business Website Frontend">
+    </div>
+    <div class="col-3">
+      <img src="images/female-member.webp" onclick="openModal(this)" alt="Modern Web Interface">
     </div>
   </div>
 </div>
