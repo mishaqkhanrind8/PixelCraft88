@@ -18,24 +18,26 @@
 <body>
     
 <!-- NAVBAR -->
-<div class="navbar" id="navbar">
+<header class="navbar card animate-top" id="navbar">
   <div>
-    <a href="#home">PIXELCRAFT</a>
+    <a href="#home" class="brand">PIXELCRAFT</a>
     <span class="nav-links">
-      <a href="#about">ABOUT</a>
-      <a href="#portfolio">PROJECTS</a>
-      <a href="#contact">CONTACT</a>
+      <a href="#about"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio"><i class="fa fa-briefcase"></i> PROJECTS</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
     </span>
   </div>
-  <span class="menu-toggle" onclick="toggleMenu()"><i class="fa fa-bars"></i></span>
-</div>
+  <span class="search-btn">
+    <i class="fa fa-search"></i>
+  </span>
+</header>
 
-<div class="mobile-menu" id="mobileMenu">
+<!-- Mobile Menu -->
+<nav class="mobile-menu" id="mobileMenu">
   <a href="#about" onclick="toggleMenu()">ABOUT</a>
   <a href="#portfolio" onclick="toggleMenu()">PROJECTS</a>
   <a href="#contact" onclick="toggleMenu()">CONTACT</a>
-</div>
-
+</nav>
 <!-- HERO -->
 <div class="parallax hero" id="home">
   <div class="overlay-text">
@@ -107,7 +109,7 @@
 
 <!-- PORTFOLIO BG -->
 <div class="parallax section-bg bg-portfolio">
-  <div class="overlay-text">FEATURED PROJECTS</div>
+  <div class="overlay-text-port">FEATURED PROJECTS</div>
 </div>
 
 <!-- PORTFOLIO -->
@@ -143,7 +145,7 @@
 
 <!-- CONTACT BG -->
 <div class="parallax section-bg bg-contact">
-  <div class="overlay-text">LET’S WORK TOGETHER</div>
+  <div class="overlay-text-contact">LET’S WORK TOGETHER</div>
 </div>
 
 <!-- FOOTER -->
