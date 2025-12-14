@@ -35,6 +35,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 12px 16px;
   z-index: 10;
   transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
 }
@@ -70,7 +71,7 @@ a {
 
 /* Search button */
 .search-btn {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #000;
   padding: 8px 16px;
   cursor: pointer;
@@ -78,7 +79,7 @@ a {
 }
 
 .search-btn:hover {
-  background: #000;
+  background: orangered;
   color: #fff;
 }
 
@@ -102,7 +103,7 @@ a {
 .navbar.scrolled {
   background: #fff;
   box-shadow: 0 1px 6px rgba(0,0,0,0.15);
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 /* Mobile menu */
@@ -140,7 +141,7 @@ a {
   position: relative;
 }
 
-.overlay-text {
+.hero .overlay-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -150,11 +151,59 @@ a {
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 8px;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 3px;
-  font-style: italic;
 }
+
+.hero .overlay-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00ffffcc;
+  font-style: italic;
+  letter-spacing: 4px;
+}
+
+.hero .overlay-text p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: lightblue;
+}
+
+.about-section {
+  padding: 3.5rem 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  padding: 1.5rem 0;
+}
+
+.col-6 {
+  flex: 1;
+}
+
+.col-6 img {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.col-6 p {
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
