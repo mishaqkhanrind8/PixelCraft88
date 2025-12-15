@@ -59,6 +59,10 @@
 </p>
 
   <div class="row">
+        <div class="col-6 center">
+      <h3>Ali Khan</h3>
+      <img src="images/coding-img.webp" alt="Frontend Developer">
+    </div>
     <div class="col-6">
       <p>
         Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -67,10 +71,6 @@
       <p class="second-paragraph">
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       </p>
-    </div>
-    <div class="col-6 center">
-      <h3>Ali Khan</h3>
-      <img src="images/coding-img.webp" alt="Frontend Developer">
     </div>
   </div>
 
@@ -153,27 +153,74 @@
   </div>
 </div>
 
-<!-- MODAL -->
-<div class="modal" id="modal" onclick="this.style.display='none'">
-  <div>
-    <img id="modalImg">
-    <p id="modalText"></p>
+<!-- Modal for full size images on click -->
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+<span class="modal-close" title="Close"><i class="fa fa-remove"></i></span>
+<div class="modal-content">
+<img id="img01" class="modal-image">
+<p id="caption" class="modal-caption"></p>
+</div>
+</div>
+
+<div class="more-btn"><button>view more</button></div>
+
+<div class="bg-contact">
+  <div class="overlay-text">GET IN TOUCH</div>
+</div>
+
+<section class="container" id="contact">
+  <h3 class="section-title">LET’S BUILD SOMETHING GREAT</h3>
+  <p class="section-subtitle">
+    <em>Have a project in mind? Let’s connect.</em>
+  </p>
+
+  <div class="contact-row">
+    <div class="col-4">
+      <img src="images/female-member.webp" class="responsive-img rounded" alt="PixelCraft Workspace">
+    </div>
+
+    <div class="col-8">
+      <div class="contact-info">
+        <p><i class="fa fa-map-marker"></i> Remote / Worldwide</p>
+        <p><i class="fa fa-phone"></i> Available on request</p>
+        <p><i class="fa fa-envelope"></i> hello@pixelcraft.dev</p>
+      </div>
+
+      <p>
+        Whether you need a modern website, a clean UI, or frontend performance
+        optimization — PixelCraft is here to help turn your ideas into reality.
+      </p>
+
+      <form class="contact-form">
+        <div class="form-row">
+          <input class="form-input" type="text" placeholder="Your Name" required>
+          <input class="form-input" type="email" placeholder="Your Email" required>
+        </div>
+        <input class="full-width" type="text" placeholder="Tell me about your project" required>
+        <button type="submit" class="btn-primary">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
   </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <a href="#home" class="btn-top">
+    <i class="fa fa-arrow-up"></i> Back to Top
+  </a>
+
+<div class="social-icons">
+  <i class="fa-brands fa-facebook-f"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-linkedin-in"></i>
+  <i class="fa-brands fa-github"></i>
 </div>
 
-<!-- CONTACT BG -->
-<div class="parallax section-bg bg-contact">
-  <div class="overlay-text-contact">LET’S WORK TOGETHER</div>
-</div>
-
-<!-- FOOTER -->
-<footer>
-  <p>Connect with me</p>
-  <i class="fa fa-github"></i>
-  <i class="fa fa-linkedin"></i>
-  <i class="fa fa-twitter"></i>
-  <p style="margin-top:15px; font-size:14px;">
-    © 2025 PixelCraft — Frontend Developer
+  <p class="footer-text">
+    © 2025 PixelCraft — Frontend Development & UI Engineering
   </p>
 </footer>
 

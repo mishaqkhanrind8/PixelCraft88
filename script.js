@@ -14,3 +14,14 @@ function toggleMobileMenu() {
   menu.style.display = menu.style.display === "flex" ? "none" : "flex";
   menu.style.flexDirection = "column";
 }
+
+// Modal image display
+function openModal(img) {
+  const modal = document.getElementById("modal01");
+  const modalImg = document.getElementById("img01");
+  const caption = document.getElementById("caption");
+
+  modal.style.display = "flex";
+  modalImg.src = img.src;
+  caption.innerText = img.alt;
+}
