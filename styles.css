@@ -550,7 +550,7 @@ button.btn-primary:hover {
 
   /* Hero */
   .hero {
-    height: 70vh;
+    height: 50dvh;
     margin-top: 50px;
   }
 
@@ -608,7 +608,7 @@ button.btn-primary:hover {
 
   /* Portfolio */
   .bg-portfolio {
-    height: 80vh;
+    height: 50dvh;
     padding: 2rem 1rem;
   }
 
@@ -639,7 +639,7 @@ button.btn-primary:hover {
 
   /* Contact */
   .bg-contact {
-    height: 70vh;
+    height: 50vh;
   }
 
   .bg-contact .overlay-text {
@@ -690,4 +690,13 @@ button.btn-primary:hover {
   .footer-text {
     font-size: 0.85rem;
   }
+.hero,
+.bg-portfolio,
+.bg-contact {
+  height: 50vh;     /* fallback */
+  height: 50dvh;    /* modern browsers */
+  min-height: 300px;
+}
+
+
 }
