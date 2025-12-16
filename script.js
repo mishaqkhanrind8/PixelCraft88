@@ -25,3 +25,4 @@ function openModal(img) {
   modalImg.src = img.src;
   caption.innerText = img.alt;
 }
+document.getElementById("img01").src = clickedImg.src;
